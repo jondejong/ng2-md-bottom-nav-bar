@@ -20,6 +20,11 @@ const packages:any = {
         format: 'cjs',
         defaultExtension: 'js',
         main: 'icon.js'
+    },
+    '@angular2-material/button': {
+        format: 'cjs',
+        defaultExtension: 'js',
+        main: 'button.js'
     }
 };
 
