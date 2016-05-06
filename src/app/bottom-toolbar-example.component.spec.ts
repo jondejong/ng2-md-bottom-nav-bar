@@ -17,6 +17,6 @@ describe('App: BottomToolbarExample', () => {
 
   it('should have as title \'bottom-toolbar-example works!\'',
       inject([BottomToolbarExampleAppComponent], (app: BottomToolbarExampleAppComponent) => {
-    expect(app.title).toEqual('bottom-toolbar-example works!');
+    expect(app.text).toEqual('bottom-toolbar-example works!');
   }));
 });
